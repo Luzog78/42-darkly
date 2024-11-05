@@ -28,7 +28,7 @@
 
 - [ ] 12. [Hidden file](/Hidden%20file/Ressources/Readme.md) ([Flag](/Hidden%20file/flag))
 
-- [ ] 13. [Survey](/Survey/Ressources/Readme.md) ([Flag](/Survey/flag))
+- [x] 13. [Survey](/Survey/Ressources/Readme.md) ([Flag](/Survey/flag))
 
 - [ ] 14. [Recover](/Recover/Ressources/Readme.md) ([Flag](/Recover/flag))
 
