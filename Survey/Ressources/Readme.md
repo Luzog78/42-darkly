@@ -33,3 +33,5 @@ Example:
 
 
 ---
+
+[[Back to main page](/#darkly)]
