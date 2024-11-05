@@ -14,7 +14,7 @@
 
 - [ ] 5. [XSS advanced](/XSS%20advanced/Ressources/Readme.md) ([Flag](/XSS%20advanced/flag))
 
-- [ ] 6. [Cookies](/Cookies/Ressources/Readme.md) ([Flag](/Cookies/flag))
+- [x] 6. [Cookies](/Cookies/Ressources/Readme.md) ([Flag](/Cookies/flag))
 
 - [ ] 7. [Spoof](/Spoof/Ressources/Readme.md) ([Flag](/Spoof/flag))
 
