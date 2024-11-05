@@ -10,7 +10,7 @@
 
 - [ ] 3. [Include](/Include/Ressources/Readme.md) ([Flag](/Include/flag))
 
-- [ ] 4. [XSS basic](/XSS%20basic/Ressources/Readme.md) ([Flag](/XSS%20basic/flag))
+- [x] 4. [XSS basic](/XSS%20basic/Ressources/Readme.md) ([Flag](/XSS%20basic/flag))
 
 - [ ] 5. [XSS advanced](/XSS%20advanced/Ressources/Readme.md) ([Flag](/XSS%20advanced/flag))
 
