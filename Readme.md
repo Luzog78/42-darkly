@@ -4,7 +4,7 @@
 ### Breaches found
 
 
-- [ ] 1. [SQL injection basic](/SQL%20injection%20basic/Ressources/Readme.md) ([Flag](/SQL%20injection%20basic/flag))
+- [x] 1. [SQL injection basic](/SQL%20injection%20basic/Ressources/Readme.md) ([Flag](/SQL%20injection%20basic/flag))
 
 - [ ] 2. [SQL injection avancee](/SQL%20injection%20avancee/Ressources/Readme.md) ([Flag](/SQL%20injection%20avancee/flag))
 
