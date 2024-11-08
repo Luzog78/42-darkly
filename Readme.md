@@ -16,7 +16,7 @@
 
 - [x] 6. [Cookies](/Cookies/Ressources/Readme.md) ([Flag](/Cookies/flag))
 
-- [ ] 7. [Spoof](/Spoof/Ressources/Readme.md) ([Flag](/Spoof/flag))
+- [x] 7. [Spoof](/Spoof/Ressources/Readme.md) ([Flag](/Spoof/flag))
 
 - [ ] 8. [Admin](/Admin/Ressources/Readme.md) ([Flag](/Admin/flag))
 
