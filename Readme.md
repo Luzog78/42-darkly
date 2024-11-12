@@ -24,7 +24,7 @@
 
 - [ ] 10. [File upload](/File%20upload/Ressources/Readme.md) ([Flag](/File%20upload/flag))
 
-- [ ] 11. [Redirect](/Redirect/Ressources/Readme.md) ([Flag](/Redirect/flag))
+- [x] 11. [Redirect](/Redirect/Ressources/Readme.md) ([Flag](/Redirect/flag))
 
 - [ ] 12. [Hidden file](/Hidden%20file/Ressources/Readme.md) ([Flag](/Hidden%20file/flag))
 

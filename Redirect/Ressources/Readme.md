@@ -1,4 +1,4 @@
-# Breach: Redirect [UNSOLVED]
+# Breach: Redirect
 
 
 <br>
@@ -12,13 +12,30 @@
 
 
 #### Step 1:
-At the bottom of the file. Inside the footer, it has three redirect button one for 'facebook', one for 'Twitter' and a last one 'instagram'.
+
+- Go to the footer of the home page.
+
+> There are three buttons of the page, each one redirecting to a different social media platform.
+
 
 #### Step 2:
-When you acced to the html code and you modify the href value of the beacon <a> associated of one of this button before actionated it.
+
+> The buttons are associated with a beacon <a> tag like this:
+> ```html
+> <a href="redirect.php?page=redirect&site=facebook"></a>
+> ```
+
+- Edit the `site` parameter in the href value of the beacon <a>.
+
+- Example:
+```html
+<a href="redirect.php?page=redirect&site=flag"></a>
+```
+
 
 #### Step 3:
-When this is done and that you click of the modified button, the flag displays.
+
+- Click on the button you just edited.
 
 
 ---
