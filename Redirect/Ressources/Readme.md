@@ -20,14 +20,13 @@
 
 #### Step 2:
 
-> The buttons are associated with a beacon <a> tag like this:
+> The buttons are associated with a beacon &lt;a&gt; like this:
 > ```html
 > <a href="redirect.php?page=redirect&site=facebook"></a>
 > ```
 
-- Edit the `site` parameter in the href value of the beacon <a>.
-
-- Example:
+- Edit the `site` parameter in the href value of the beacon &lt;a&gt;.<br>
+  Example:
 ```html
 <a href="redirect.php?page=redirect&site=flag"></a>
 ```
