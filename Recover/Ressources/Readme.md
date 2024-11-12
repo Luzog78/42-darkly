@@ -1,4 +1,4 @@
-# Breach: Recover [UNSOLVED]
+# Breach: Recover
 
 
 <br>
@@ -11,13 +11,35 @@
 ## Explanation:
 
 #### Step 1:
-page => ${<ip>}/?page=recover
+
+- Go to the "Sign in" page and click on the "Forgot password?" link.
+
+Welcome to the account recovery page.
+
+> You notice only a button to submit your recovery request.<br>
+> But when you click on the button, you get an error message.
+
 
 #### Step 2:
-Inside the account recovery page, you can edit the value of the submit button inside the html before activating the button.
+
+- Inspect the button.
+
+> You can see that the button is part of a form.<br>
+> Inside the form, you can see a hidden input field :
+> ```html
+> <input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
+> ```
+
+- Edit the value of the hidden input field.<br>
+  Example:
+```html
+<input type="hidden" name="mail" value="flag" maxlength="15">
+```
+
 
 #### Step 3:
-When this is done and you submit your recovery request, the flag is displayed.
+
+- Submit the form.
 
 
 ---

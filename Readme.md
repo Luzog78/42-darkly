@@ -30,6 +30,6 @@
 
 - [x] 13. [Survey](/Survey/Ressources/Readme.md) ([Flag](/Survey/flag))
 
-- [ ] 14. [Recover](/Recover/Ressources/Readme.md) ([Flag](/Recover/flag))
+- [x] 14. [Recover](/Recover/Ressources/Readme.md) ([Flag](/Recover/flag))
 
 ---
