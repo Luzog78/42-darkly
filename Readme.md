@@ -18,7 +18,7 @@
 
 - [x] 7. [Spoof](/Spoof/Ressources/Readme.md) ([Flag](/Spoof/flag))
 
-- [ ] 8. [Admin](/Admin/Ressources/Readme.md) ([Flag](/Admin/flag))
+- [x] 8. [Admin](/Admin/Ressources/Readme.md) ([Flag](/Admin/flag))
 
 - [ ] 9. [Bruteforce](/Bruteforce/Ressources/Readme.md) ([Flag](/Bruteforce/flag))
 
