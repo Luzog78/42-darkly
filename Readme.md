@@ -20,7 +20,7 @@
 
 - [x] 8. [Admin](/Admin/Ressources/Readme.md) ([Flag](/Admin/flag))
 
-- [ ] 9. [Bruteforce](/Bruteforce/Ressources/Readme.md) ([Flag](/Bruteforce/flag))
+- [x] 9. [Bruteforce](/Bruteforce/Ressources/Readme.md) ([Flag](/Bruteforce/flag))
 
 - [ ] 10. [File upload](/File%20upload/Ressources/Readme.md) ([Flag](/File%20upload/flag))
 
