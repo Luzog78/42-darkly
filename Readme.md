@@ -26,7 +26,7 @@
 
 - [x] 11. [Redirect](/Redirect/Ressources/Readme.md) ([Flag](/Redirect/flag))
 
-- [ ] 12. [Hidden file](/Hidden%20file/Ressources/Readme.md) ([Flag](/Hidden%20file/flag))
+- [x] 12. [Hidden file](/Hidden%20file/Ressources/Readme.md) ([Flag](/Hidden%20file/flag))
 
 - [x] 13. [Survey](/Survey/Ressources/Readme.md) ([Flag](/Survey/flag))
 
