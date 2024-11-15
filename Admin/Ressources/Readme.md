@@ -1,5 +1,6 @@
 # Breach: Admin
 
+
 <br>
 
 ### >> [Flag file](../flag) <<
@@ -55,6 +56,14 @@ gobuster dir -u "http://$IP/" -w /usr/share/wordlists/dirbuster/directory-list-2
 - Enter the following credentials:
   - Username: `root`
   - Password: `qwerty123@`
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

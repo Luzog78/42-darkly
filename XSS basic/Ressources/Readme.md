@@ -13,7 +13,8 @@
 
 #### Step 1:
 
-- Go to the feedback page
+- Go to the feedback page.
+
 
 #### Step 2:
 
@@ -27,9 +28,18 @@ scrip
 script
 ```
 
+
 #### Step 3:
 
-- Submit the form
+- Submit the form.
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

@@ -105,6 +105,14 @@ hydra -vV -L top-usernames-shortlist.txt -P /usr/share/wordlists/john.lst 192.16
 - Log in using the password `shadow` (the username doesn't matter).
 
 
+<br>
+
+
+## How to fix it:
+
+- ...
+
+
 ---
 
 [[Back to main page](/#darkly)]

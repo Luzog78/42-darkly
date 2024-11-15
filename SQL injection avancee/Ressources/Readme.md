@@ -10,6 +10,7 @@
 
 ## Explanation:
 
+
 It will be similar to the basic SQL injection,<br>
 so refer to the [SQL injection basic](/SQL%20injection%20basic/Ressources/Readme.md) breach for more information.
 
@@ -20,7 +21,7 @@ The only things that make it "avancee" are :
 
 #### Step 1:
 
-- Go to the search image page
+- Go to the search image page.
 
 
 #### Step 2:
@@ -87,6 +88,14 @@ UNION SELECT id, comment FROM list_images
 - Lower all the characters: `albatroz` -> `albatroz` (no change)
 
 - Sha256 on it: `albatroz` -> `f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188`
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

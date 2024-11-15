@@ -30,6 +30,7 @@
 > Even if the mime type is `image/jpeg`, when the server will render the file,<br>
 > it will execute the code inside !
 
+
 #### Step 2:
 
 Let's try to edit the mime type of the file you upload.
@@ -56,6 +57,14 @@ Content-Type: image/jpeg
 #### Step 4:
 
 - Forward the request.
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

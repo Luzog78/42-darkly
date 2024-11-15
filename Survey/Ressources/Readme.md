@@ -13,11 +13,12 @@
 
 #### Step 1:
 
-- Go to the survey page
+- Go to the survey page.
+
 
 #### Step 2:
 
-- Open the developer tools and edit any value of the survey form to more than 10
+- Open the developer tools and edit any value of the survey form to more than 10.
 
 Example:
 ```html
@@ -27,9 +28,18 @@ Example:
 <option value="1000">1</option>
 ```
 
+
 #### Step 3:
 
 - Submit the form
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

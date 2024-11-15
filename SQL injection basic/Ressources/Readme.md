@@ -13,7 +13,7 @@
 
 #### Step 1:
 
-- Go to the members page
+- Go to the members page.
 
 > You'll notice, by entering random data, that the form is vulnerable to SQL injection.
 
@@ -126,7 +126,6 @@ UNION SELECT user_id, countersign FROM users
 > | 5       | Flag       | GetThe    | 42        |          |        | Decrypt this password -> then lower all the char. Sh256 on it and it's good ! | 5ff9d0165b4f92b14994e5c685cdce28 |
 
 
-
 #### Step 5:
 
 - Decrypt the password (md5 lookup): `5ff9d0165b4f92b14994e5c685cdce28` -> `FortyTwo`
@@ -134,6 +133,14 @@ UNION SELECT user_id, countersign FROM users
 - Lower all the characters: `FortyTwo` -> `fortytwo`
 
 - Sh256 on it: `fortytwo` -> `10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5`
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

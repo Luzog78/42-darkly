@@ -10,6 +10,7 @@
 
 ## Explanation:
 
+
 #### Step 1:
 
 - Go to the "Sign in" page and click on the "Forgot password?" link.
@@ -40,6 +41,14 @@ Welcome to the account recovery page.
 #### Step 3:
 
 - Submit the form.
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---

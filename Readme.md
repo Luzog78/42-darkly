@@ -1,4 +1,31 @@
-# Darkly
+<div align="center">
+
+# 42 Cursus - Darkly
+
+<br><br>
+
+<table><thead><tr>
+	<th colspan=2><strong id="team">Team</strong></th>
+</tr></thead><tbody><tr>
+	<td>
+		<a href="https://profile.intra.42.fr/users/jmennock" target="_blank">
+			<img src="https://cdn.intra.42.fr/users/69c7cb971d402d38285148925484486c/jmennock.jpg" height="120" alt="jmennock" />
+			<br>
+			<strong>Jimmy Mennock</strong>
+		</a>
+	</td>
+	<td>
+		<a href="https://profile.intra.42.fr/users/ysabik" target="_blank">
+			<img src="https://cdn.intra.42.fr/users/1046eb06e67db02233dde6a9528d95bc/ysabik.jpg" height="120" alt="ysabik" />
+			<br>
+			<strong>Yanis Sabik</strong>
+		</a>
+	</td>
+</tr></tbody></table>
+
+<br><br>
+
+</div>
 
 
 ### Breaches found

