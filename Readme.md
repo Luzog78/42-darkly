@@ -8,7 +8,7 @@
 
 - [ ] 2. [SQL injection avancee](/SQL%20injection%20avancee/Ressources/Readme.md) ([Flag](/SQL%20injection%20avancee/flag))
 
-- [ ] 3. [Include](/Include/Ressources/Readme.md) ([Flag](/Include/flag))
+- [x] 3. [Include](/Include/Ressources/Readme.md) ([Flag](/Include/flag))
 
 - [x] 4. [XSS basic](/XSS%20basic/Ressources/Readme.md) ([Flag](/XSS%20basic/flag))
 
