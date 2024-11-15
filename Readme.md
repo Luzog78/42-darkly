@@ -12,7 +12,7 @@
 
 - [x] 4. [XSS basic](/XSS%20basic/Ressources/Readme.md) ([Flag](/XSS%20basic/flag))
 
-- [ ] 5. [XSS advanced](/XSS%20advanced/Ressources/Readme.md) ([Flag](/XSS%20advanced/flag))
+- [x] 5. [XSS advanced](/XSS%20advanced/Ressources/Readme.md) ([Flag](/XSS%20advanced/flag))
 
 - [x] 6. [Cookies](/Cookies/Ressources/Readme.md) ([Flag](/Cookies/flag))
 
