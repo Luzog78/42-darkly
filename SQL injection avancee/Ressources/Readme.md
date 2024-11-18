@@ -95,7 +95,7 @@ UNION SELECT id, comment FROM list_images
 
 ## How to fix it:
 
-- ...
+Same breach as [SQL injection basic](/SQL%20injection%20basic/Ressources/Readme.md#how-to-fix-it).
 
 
 ---

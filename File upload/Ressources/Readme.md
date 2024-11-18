@@ -64,7 +64,22 @@ Content-Type: image/jpeg
 
 ## How to fix it:
 
-- ...
+> Here, only data with `image/jpeg` as mime-types was allowed.<br>
+> But we know the rule :
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- Check everything !
+  - The extension
+  - The mime-type
+  - The size
+  - And even if you want, the content:
+    - Either the first bytes to be sure that it's a jpeg header
+    - Or the full data with a jpeg-checker/safe-jpeg-parser package.
+
+<br>
+
+- Every check should be done <b>at least</b> server-side.
 
 
 ---

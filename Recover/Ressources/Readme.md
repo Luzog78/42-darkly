@@ -48,7 +48,16 @@ Welcome to the account recovery page.
 
 ## How to fix it:
 
-- ...
+> The HTML, the CSS and even the JavaScript are local and can be edited by the user at any moment.<br>
+> Having a `type="hidden"` to hide somthing from the user is useless.
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+> I did not really get the point of this flag...<br>
+> But if the goal was to send the recovery to `webmaster@borntosec.com` in every case :
+
+- Do the important things server-side !<br>
+  Do not take the e-mail from the html form, the user could have modified it.
 
 
 ---

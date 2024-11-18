@@ -63,7 +63,19 @@ gobuster dir -u "http://$IP/" -w /usr/share/wordlists/dirbuster/directory-list-2
 
 ## How to fix it:
 
-- ...
+- Do not allow file and directory listing on your server.<br>
+  This could never be a good idea.<br>
+  Or at least restrict the listing pages to certain users, not every random guy.
+
+<br>
+
+- Never store passwords in plain text (or even with a weak hash method).<br>
+  And in no case the file containing sensitive info should be accessible by a random user.
+
+<br>
+
+- <u>Recommendation:</u><br>
+  Use a stronger password and something else than `root` for an admin account.
 
 
 ---

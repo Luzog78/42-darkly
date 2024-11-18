@@ -41,7 +41,21 @@ Let's try to access it.
 
 ## How to fix it:
 
-- ...
+- Enclose the web part of the server.<br>
+  Only a few files (or none) should be accessible.
+
+<br>
+
+- <u>Recommendation:</u><br>
+  Prevent the use of absolute or relative paths.
+  - A simple way to do this, prevent `/..` in the url path.
+
+<br>
+
+- <u>Recommendation:</u><br>
+  Do not load your web pages by the filename, use keywords instead :<br>
+  Config the server to load `index.php` when the url path is `/home` instead of<br>
+  serching for `home.html`, `home.php` or `home/`.
 
 
 ---

@@ -140,7 +140,42 @@ UNION SELECT user_id, countersign FROM users
 
 ## How to fix it:
 
-- ...
+- Use a code interface instead of SQL querries.<br>
+  For exemple, with django, the interaction with the database are object-based.<br>
+  It just means that instead of :
+  ```py
+  sql_manager.querry("SELECT * FROM Users WHERE id=" + var)  # not safe
+  ```
+  We now have :
+  ```py
+  Users.get(id=var)  # almost unbreakable
+  ```
+  It's injection-free and with some conditions, absolutely unbreakable.
+
+<br>
+
+- Or at least, Check the input before applying the querry.<br>
+  Example :<br>
+  ```py
+  try:
+      safe_var = int(var)
+      if 0 <= safe_var < 1000:
+          sql_manager.querry("SELECT * FROM Users WHERE id=" + safe_var)  # safe
+      else:
+          pass  # out of bounds
+  except:
+      pass  # not a number (may be an injection tentative)
+  ```
+  And in case the variable is a string, keep it in simple quotes,<br>
+  escaping the backslashes and the simple quotes :<br>
+  ```py
+  safe_var = var.replace("\\", "\\\\").replace("'", "\\'")
+  sql_manager.querry("SELECT * FROM Users WHERE name='" + safe_var + "'")
+  ```
+
+<br>
+
+- And anyway, Keep everything up-to-date !
 
 
 ---

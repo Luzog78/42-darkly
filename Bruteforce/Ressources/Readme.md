@@ -60,6 +60,7 @@ vagrant
 azureuser
 ```
 
+
 #### Step 4:
 
 Use Hydra to bruteforce a login.
@@ -110,8 +111,24 @@ hydra -vV -L top-usernames-shortlist.txt -P /usr/share/wordlists/john.lst 192.16
 
 ## How to fix it:
 
-- ...
+- <b>NEVER</b> use GET requests to send sensitive data like passwords !<br>
+  In fact, even a POST request can be a problem if you want the auth to be more secure...<br>
+  It's better to encrypt the password locally and then send it.<br>
+  But at least, NEVER with GET when the password is in plan text !
 
+<br>
+
+- Use a strong password (`shadow` is one of the worst passwords you can choose)<br>
+  as well as a less common username (try to avoid `admin`, `root` or `guest`).
+
+<br>
+
+- <u>Recommendation:</u><br>
+  Add an other security layer. Some examples:
+  - A delay between each try (only about 2 or 3 seconds are very efficient !)
+  - A maximum amount of try (before locking the account or something like that)
+  - The Two Factors Authentication (2FA)
+  - Or the cherry on the top, the best of the best, a <em>CAPTCHA</em> !
 
 ---
 

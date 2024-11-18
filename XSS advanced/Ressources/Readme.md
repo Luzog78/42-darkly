@@ -33,8 +33,8 @@ Let's try to inject a script in the `src` parameter !
 > ```
 > 
 > It works !<br>
-> But there is no flag for some reason.
-> Let's try to do the same thing, but with a base64 encoded script.<br>
+> But there is no flag for some reason.<br>
+> Let's try to do the same thing, but with a base64 encoded script.
 
 - Encode the following script in base64:
 ```html
@@ -60,7 +60,13 @@ PHNjcmlwdD5hbGVydCgnZ2ltbWUgdGhlIGZsYWcnKTs8L3NjcmlwdD4=
 
 ## How to fix it:
 
-- ...
+> The values of the parameters in an HTTP request are made by the user.
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- Do more checks BEFORE trying to render or execute anything coming from the user.
+  - Disallow the plain data (`data:__mime-type__;__encoding__,__data__`).
+  - Or at least check for the mime-type (allow only `image/*` for example).
 
 
 ---

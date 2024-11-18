@@ -39,7 +39,25 @@ Example:
 
 ## How to fix it:
 
-- ...
+> The HTML, the CSS and even the JavaScript are local and can be edited by the user at any moment.<br>
+> So because the `value` field is user-side, we have to add server-side checks !
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- Add server-side checks.<br>
+  Example :<br>
+  ```py
+  try:
+      safe_value = int(value)
+      if 0 < safe_value <= 10:
+          # safe
+          # ...
+          # ...
+      else:
+          pass  # out of bounds
+  except:
+      pass  # not a number
+  ```
 
 
 ---

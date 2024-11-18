@@ -118,7 +118,13 @@ cat results/contents | grep flag
 
 ## How to fix it:
 
-- ...
+> The goal of this flag is to teach us web-crawling :<br>
+> making thousands of files is absolutely not a secure way to hide something.<br>
+> So just restrict access to the sensitive content and that's it, you're done.
+
+- Do not allow file and directory listing on your server.<br>
+  This could never be a good idea.<br>
+  Or at least restrict the listing pages to certain users, not every random guy.
 
 
 ---

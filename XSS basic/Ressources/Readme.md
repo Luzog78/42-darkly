@@ -39,7 +39,19 @@ script
 
 ## How to fix it:
 
-- ...
+> Here it's clearly to to an `innerHTML` function :
+> ```js
+> element.innerHTML = content;
+> ```
+> 
+> Huge error, because :
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- Use the `innerText` to avoid script injection through the HTML :
+  ```js
+  element.innerText = content;
+  ```
 
 
 ---

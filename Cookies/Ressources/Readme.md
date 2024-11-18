@@ -35,7 +35,12 @@
 
 ## How to fix it:
 
-- ...
+> The cookies are local and can be edited by the user at any moment.
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- So DO NOT put sensitive content in the cookies !<br>
+  The rights of a user/session should be done server-side.
 
 
 ---

@@ -51,7 +51,13 @@
 
 ## How to fix it:
 
-- ...
+> The data inside the requests are user-side and can be edited by the user at any moment.<br>
+> Making some pages accessible depending on the `User-Agent` is stupid.<br>
+> It's not because the `User-Agent` is `Mozilla` that the user does not use Chrome.
+
+##### RULE N°1 IN SECURITY: NEVER TRUST THE USER !
+
+- Do not base sensitive things on the content of a simple request.
 
 
 ---
