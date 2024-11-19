@@ -55,7 +55,7 @@ gospider -s 'http://192.168.192.18:4243/.hidden/' -d 0 -o results
 
 - Filter the results, keeping only the links to the README files.
 ```bash
-cat results/192_168_192_18 | grep code-200 | sed -e 's/\\[.*\\] - //g' | grep -E '\.hidden/.*/README' > results/readmes
+cat results/192_168_192_18 | grep code-200 | sed -e 's/\[.*\] - //g' | grep -E '\.hidden/.*/README' > results/readmes
 ```
 
 > Now, every link to a README file is saved in the `results/readmes` file :
