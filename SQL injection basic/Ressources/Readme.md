@@ -144,7 +144,7 @@ UNION SELECT user_id, countersign FROM users
   For exemple, with django, the interaction with the database are object-based.<br>
   It just means that instead of :
   ```py
-  sql_manager.querry("SELECT * FROM Users WHERE id=" + var)  # not safe
+  sql_manager.query("SELECT * FROM Users WHERE id=" + var)  # not safe
   ```
   We now have :
   ```py
@@ -154,13 +154,13 @@ UNION SELECT user_id, countersign FROM users
 
 <br>
 
-- Or at least, Check the input before applying the querry.<br>
+- Or at least, Check the input before applying the query.<br>
   Example :<br>
   ```py
   try:
       safe_var = int(var)
       if 0 <= safe_var < 1000:
-          sql_manager.querry("SELECT * FROM Users WHERE id=" + safe_var)  # safe
+          sql_manager.query("SELECT * FROM Users WHERE id=" + safe_var)  # safe
       else:
           pass  # out of bounds
   except:
@@ -170,7 +170,7 @@ UNION SELECT user_id, countersign FROM users
   escaping the backslashes and the simple quotes :<br>
   ```py
   safe_var = var.replace("\\", "\\\\").replace("'", "\\'")
-  sql_manager.querry("SELECT * FROM Users WHERE name='" + safe_var + "'")
+  sql_manager.query("SELECT * FROM Users WHERE name='" + safe_var + "'")
   ```
 
 <br>
